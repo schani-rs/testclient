@@ -9,9 +9,9 @@ function checkHttp200(res) {
     }
 }
 
-//const url = 'http://api-65-cwurst-clc3.cloud.itandtel.at'
+const url = 'http://api-65-cwurst-schani.cloud.itandtel.at'
 //const url = 'http://localhost:8000'
-const url = 'http://apigateway:8000'
+//const url = 'http://apigateway:8000'
 
 fetch(url + '/auth/login?username=christoph&password=123456', {
     method: 'POST'
